@@ -1,1 +1,35 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+}
+.carta {
+  color: black;
+  background: white;
+  border-radius: 15px;
+  width: 26%;
+  position: relative;
+  margin: 100px auto;
+  height: 500px;
+}
+
+.simbolosup {
+  display: flex;
+  margin-left: 20px;
+  font-size: 100px;
+}
+
+.num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 150px;
+}
+
+.simboloinf {
+  right: 20px;
+  font-size: 100px;
+  width: 100%;
+  bottom: 0%;
+  position: absolute;
+  transform: rotate(180deg);
+}
